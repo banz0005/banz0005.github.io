@@ -23,3 +23,8 @@ header, footer{
     background-color: red;
 }
 
+a {
+    text-decoration: none;
+    background-color: aqua;
+}
+
