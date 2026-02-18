@@ -18,3 +18,8 @@ header, footer{
 .hobbies{
     list-style-type: square;
 }
+
+.hobbies, li:nth-child(odd) {
+    background-color: red;
+}
+
