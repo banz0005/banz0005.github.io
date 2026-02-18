@@ -26,6 +26,8 @@ header, footer{
 a {
     text-decoration: none;
     background-color: aqua;
+    border: 2px solid red;
+    border-radius: 5px solid red;
 }
 a:hover{
     background-color: aquamarine;
