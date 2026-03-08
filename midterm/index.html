@@ -35,7 +35,7 @@
         </p>
         <h3>Facts About Starfish</h3>
         <ul class="facts">
-    
+            
             <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. 
             </li>
             <li>
@@ -52,7 +52,8 @@
         </article>
     </main>
     <h4>Contact to learn more</h4>
-    <form action="contact">
+    <form action="contact" method="post"   id="contact">
+        
         <fieldset>
         <label for="fullname">Your Name</label>
         <input id="fullname" type="text">
@@ -66,6 +67,17 @@
         <label for="message">Your Message</label>
         <input id="message" type="text">
         </fieldset>
+
+        <h5>Would you like to visit the starfish?</h5>
+         <label for="yes">Yes</label>
+         <input type="checkbox" id="yes" name="yes">
+  
+         <label for="no">No</label>
+         <input type="checkbox" id="classic" name="classic">
+
+         <label for="maybe">Maybe</label>
+         <input type="checkbox" id="prog" name="prog">
+         <button type="submit">Send</button>
     </form>
 </body>
 </html>
