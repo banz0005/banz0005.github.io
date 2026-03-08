@@ -7,10 +7,10 @@ body {
     line-height: 1.4;
 }
 
-header{
+header {
     height: 50vh;
-    backgroud-color: #aad4cf;
+    background-color: #aad4cf;
     background-image: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
