@@ -55,4 +55,11 @@ a{
     display: inline-block;
     width: 140px;
     height: 40px;
+    text-decoration: none;
+}
+
+.facts {
+    list-style: disc;
+    padding-left: 20px;
+
 }
