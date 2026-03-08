@@ -42,3 +42,7 @@ img{
     width: 150px;
     float:left;
 }
+
+nav li{
+    display: inline;
+}
