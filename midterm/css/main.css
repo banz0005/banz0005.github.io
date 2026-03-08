@@ -46,5 +46,13 @@ img{
 
 nav li{
     display: inline;
+    position: relative;
+    top: 250px;
+    left: 550px;
 }
 
+a{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+}
