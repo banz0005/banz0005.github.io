@@ -108,3 +108,15 @@ form {
     background-color: transparent;
     border: 1px solid black;
 }
+
+.form-div{
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-bottom: 50px;
+}
+
+.copy {
+    margin-left: 850px;
+}
