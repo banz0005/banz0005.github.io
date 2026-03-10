@@ -99,3 +99,8 @@ form {
 .fullname, .email,.message {
     width: 900px;
 }
+
+.send-button {
+    background-color: transparent;
+    border: 1px solid black;
+}
