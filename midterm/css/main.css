@@ -43,6 +43,18 @@ header {
 
 /* article styling */
 
+#article-image{
+    /* updated image width */
+    width: 220px;
+    float: left;
+    object-fit: cover;
+    margin: 10px 19px 22px 0px;
+}
+
+article{
+    padding: 8px;
+    margin-top: 20px;
+}
 
 /* h1,h2,h3,h4 {
     padding-bottom: 1rem;
