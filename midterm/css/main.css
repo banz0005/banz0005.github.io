@@ -113,10 +113,16 @@ form {
     margin-bottom: 20px;
 }
 
-.footer{
+.footer-div{
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
+.footer{
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
 .copy {
-    margin-left: 850px;
+    margin-left: 800px;
 }
