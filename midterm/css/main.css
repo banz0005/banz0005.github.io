@@ -43,9 +43,9 @@ header {
 
 /* nav styling */
 
-nav{
+/* nav{
    
-}
+} */
 
 #nav-list{
     display: flex;
@@ -87,10 +87,20 @@ article{
     padding: 8px;
     margin-top: 20px;
 }
-
-
+/* customization of the titles */
 h2 {
-    font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+h3 {
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-size: 1.4rem
+}
+h4 {
+    margin-left: 20px;
+    margin-bottom: 12px;
+    font-size: 1.4rem;
 }
 
 
@@ -106,6 +116,7 @@ p {
 .facts {
     list-style: disc;
     padding-left: 20px;
+    line-height: 0.9rem;
 
 }
 
@@ -116,10 +127,6 @@ form {
   margin-right: 20px;
 }
 
-.input {
-    width: 100%;
-}
-
 .fullname, .email,.message {
     width: 900px;
 }
@@ -127,21 +134,18 @@ form {
 .send-button {
     background-color: transparent;
     border: 1px solid black;
+    
 }
 
-.form-div{
-    margin-bottom: 20px;
-}
-
-.footer-div{
+ .footer-div{
     margin-top: 30px;
-    margin-bottom: 50px;
-}
+    
+} 
 
 .footer{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding: 10px;
-}
+} 
 
 .copy {
     margin-left: 800px;
