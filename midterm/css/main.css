@@ -1,176 +1,193 @@
+/* setting default font size, font family, and background color */
 html {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: 1.4;
-    background-color: #76aaa4;
-    width: 100%;
-    
-
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.4;
+	background-color: #76aaa4;
+	width: 100%;
 }
 
-/*  */
+/* setting default font size, margins, and padding for h2,h3, and p tag */
 
 h2 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem;
-    padding: 5px;
+	font-size: 1.5rem;
+	padding: 5px;
 }
 
 p {
-    margin-bottom: 1rem;
-    margin-left: 10px;
-    margin-right: 15px;
-
+	margin-bottom: 1rem;
+	margin-left: 10px;
+	margin-right: 15px;
 }
 
-/*  */
+/* centering div container, and assigning background color and default width*/
 
 .container {
-    margin: 0 auto;
-    background: #aad4cf;
-    width: 1000px; 
+	margin: 0 auto;
+	background-color: #aad4cf;
+	width: 1000px;
 }
 
-/*  */
+/* using flexbox to center child element */
 
 header {
-    background-color: #aad4cf;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#header-image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* setting default header image width and height */
+
+#header-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
+
+/* adjusting header title position to sit in front of image */
 
 #header-title {
-      position:absolute;
-      text-align: center;
-      margin-top: 120px;
-      color: white;
-      font-size: 3.5rem;
+	position: absolute;
+	text-align: center;
+	margin-top: 120px;
+	color: white;
+	font-size: 3.5rem;
 }
 
-/* nav styling */
+/* using flexbox to center listed items of ul container */
 
-#nav-list{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 5px;
+#nav-list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 5px;
 }
 
-#nav-list li{
-    border-right: 1px solid black;
-    text-align: center;
-    width: 32%;
-    font-size: 1.5rem;
-    text-transform: uppercase;
+/* adding border-right to listed items, assigning default width and transforming text to uppercase */
+
+#nav-list li {
+	border-right: 1px solid black;
+	text-align: center;
+	width: 32%;
+	font-size: 1.5rem;
+	text-transform: uppercase;
 }
 
-#nav-list li:last-child{
-    /* removing border for the last listed item */
-    border-right: none;
+#nav-list li:last-child {
+	/* removing border for the last listed item */
+	border-right: none;
 }
 
-#nav-list li a{
-    /* removing default style */
-    text-decoration: none;
-    color: black;
+#nav-list li a {
+	/* removing default style */
+	text-decoration: none;
+	color: black;
 }
 
-main{
-    padding: 10px;
-    margin-bottom: 15px;
+/* adding default padding and margin-bottom for main container */
+
+main {
+	padding: 10px;
+	margin-bottom: 15px;
 }
 
-/* article styling */
+/* providing default style for article image and setting float proprety to left for paragraph alignement */
 
-#article-image{
-    /* updated image width */
-    width: 220px;
-    float: left;
-    object-fit: cover;
-    margin: 10px 19px 22px 0px;
+#article-image {
+	/* updated image width */
+	width: 220px;
+	float: left;
+	object-fit: cover;
+	margin: 10px 19px 22px 0px;
 }
 
-article{
-    margin-top: 20px;
+article {
+	margin-top: 20px;
 }
 
+/* adding a list style and line height to match the mockup */
 
 #facts {
-    list-style: disc;
-    padding-left: 20px;
-    line-height: 0.9rem;
-    margin-bottom: 10px;
-
+	list-style: disc;
+	padding-left: 20px;
+	line-height: 0.9rem;
+	margin-bottom: 10px;
 }
 
-/*  */
+/* adding default padding and border for form */
 
 form {
-  padding: 20px 10px;
-  border: 1px solid black;
+	padding: 20px 10px;
+	border: 1px solid black;
 }
 
-fieldset{
-    margin-bottom: 10px;
+/* insuring space between fieldsets */
+
+fieldset {
+	margin-bottom: 10px;
 }
 
 input {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
+
+/* setting default width,height,margin,border for form inputs */
 
 .info {
-    width: 950px;
-    height: 20px;
-    margin-top: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.419);
-
+	width: 950px;
+	height: 20px;
+	margin-top: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.419);
 }
 
-#message{
-    height: 80px;
-    resize: none;
-     border: 1px solid rgba(0, 0, 0, 0.69);
+/* incrising message input height and adjusting border color to match mockup */
+
+#message {
+	height: 80px;
+	resize: none;
+	border: 1px solid rgba(0, 0, 0, 0.69);
 }
 
-.send-button {
-    background-color: transparent;
-    border: 1px solid black;
-    text-transform: uppercase;
-    padding: 10px;
-    font-size: 0.6rem;
+/* adding default padding and font size for button */
+
+#send-button {
+	background-color: transparent;
+	border: 1px solid black;
+	/* transforming text to uppercase to match mock up */
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 0.6rem;
 }
 
-#question{
-    margin: 10px 0px;
+/* adjusting margin and font size for question and radio container */
+
+#question {
+	margin: 10px 0px;
 }
 
-#radio-container{
-    margin-top: 15px;
-    font-size: 0.9rem;
+#radio-container {
+	margin-top: 15px;
+	font-size: 0.9rem;
 }
 
-/*  */
+/* adjusting margin for footer-div and copy */
 
- .footer-div{
-    margin-top: 20px;
-    
-} 
+#footer-div {
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
+}
 
-.copy {
-    margin-left: 800px;
+/* aligning footer to the right */
+
+footer {
+	text-align: right;
 }
