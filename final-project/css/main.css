@@ -49,7 +49,7 @@ a {
 	#home-btn {
 		background-color: #c78c06;
         margin-top: -1px;
-	}
+	}   
 
 	#header-container {
 		/* background-color: #c78c06; */
@@ -78,17 +78,25 @@ a {
 		padding: 0;
 		height: 150px;
 	}
-
+     /* Search styling */
+     /* Setting form width and flex alignment */
     #search {
         width: 100%;
         display: flex;
         justify-content: center;
         margin: 10px 0px;
     }
-
+    /* Setting inout field width and height */
     #search input {
-        width: 80%;
+        width: 90%;
+        height: 45px;
         padding: 5px;
+    }
+    /* Adding background color and text color */
+    #search-btn {
+        background-color: #222;
+        color: #c78c06;
+        border: 1px solid #c78c06;
     }
 }
 
