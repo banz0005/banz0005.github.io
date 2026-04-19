@@ -186,7 +186,8 @@
 						<img class="section-img" src="/images/john.jpg" alt="john doe" />
 						<div class="section-description-container">
 							<h3>John Doe</h3>
-							<p>CEO and Co-owner</p>
+							<p class="team-title">CEO and Co-owner</p>
+							<hr />
 							<p class="section-p">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
 								error incidunt qui velit esse, nam eius sunt dolore amet eos
@@ -199,7 +200,8 @@
 						<img class="section-img" src="/images/bob.jpg" alt="bob rite" />
 						<div class="section-description-container">
 							<h3>Bob Rite</h3>
-							<p>Creative Director</p>
+							<p class="team-title">Creative Director</p>
+							<hr />
 							<p class="section-p">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. A eaque
 								labore distinctio, provident pariatur impedit velit
@@ -214,22 +216,19 @@
 			<!-- Made a contact section with an id by it names, wich includes a form, within the form there's a fieldset two inputs and one textarea -->
 			<section id="contact">
 				<h2>Contact Us</h2>
+				<h3>Send us a message</h3>
 				<form id="contact-form">
 					<fieldset>
-						<div class="section-description-container">
-							<h3>Send us a message</h3>
+						<label for="name">Name</label>
+						<input type="name" type="text" />
 
-							<label for="name">Name</label>
-							<input type="name" type="text" />
+						<label for="email">Email</label>
+						<input type="email" type="email" />
 
-							<label for="email">Email</label>
-							<input type="email" type="email" />
+						<label for="message">Message</label>
+						<textarea name="message" id="messagwe"></textarea>
 
-							<label for="message">Message</label>
-							<textarea name="message" id="messagwe"></textarea>
-
-							<button type="submit">Send</button>
-						</div>
+						<button type="submit">Send</button>
 					</fieldset>
 				</form>
 			</section>
