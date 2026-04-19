@@ -46,10 +46,19 @@ a {
     font-size: 1.5rem;
     font-weight: 700;
    }
+
+   .section-p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 10px 0px;
+   }
 /* setting max width media query for the screen size of 760 and below */
 /* mobile styling */
 @media screen and (max-width: 760px) {
-	
+	section {
+        padding: 15px;
+    }
+
   .section-btn {
     background-color: #c78c06;
     color: #222;
@@ -163,6 +172,13 @@ a {
         font-size: 1rem;
         line-height: 1.2rem;
     }
+
+    /* about styling section */
+
+    #about {
+        background-color: rgb(255, 230, 172);
+    }
+    
 
 }
 
