@@ -21,14 +21,19 @@ a {
 .site-btn {
 	color: #222;
 }
+
+ .section-img {
+    width: 100%;
+   }
+
+   iframe {
+    width: 100%;
+   }
 /* setting max width media query for the screen size of 760 and below */
 /* mobile styling */
 @media screen and (max-width: 760px) {
 	
-    img,
-	iframe {
-		width: 100px;
-	}
+  
 	nav {
 		width: 100%;
 	}
