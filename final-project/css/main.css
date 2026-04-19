@@ -29,11 +29,34 @@ a {
    iframe {
     width: 100%;
    }
+
+   h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    max-width: 450px;
+   }
+
+   h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+   }
+
+   h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+   }
 /* setting max width media query for the screen size of 760 and below */
 /* mobile styling */
 @media screen and (max-width: 760px) {
 	
-  
+  .section-btn {
+    background-color: #c78c06;
+    color: #222;
+    padding: 30px 25px;
+    margin-top: 10px;
+    max-width: fit-content;
+  }
 	nav {
 		width: 100%;
 	}
@@ -126,6 +149,8 @@ a {
         max-height: fit-content;
         color: white;
         padding: 10px;
+        height: 300px;
+        width: fit-content;
     }
 
     #front {
@@ -133,6 +158,12 @@ a {
         flex-direction: column;
         justify-content: space-between;
     }
+
+    #front p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
 }
 
 @media screen and (min-width: 760px) {
