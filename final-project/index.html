@@ -18,24 +18,28 @@
 			<div id="site-header">
 				<!-- The header contain-->
 				<header id="header-container">
-					<div id="logo">
-						<img
-							id="logo-image"
-							src="images/logo.png"
-							alt="three star media logo"
-						/>
-					</div>
 					<div id="nav-container">
-						<!-- Used a nav because it contains navigations links -->
-						<nav>
-							<ul id="links">
-								<li id="home-btn"><a class="site-btn" href="#home">Home</a></li>
-								<li><a href="#about">About Us</a></li>
-								<li><a href="#services">Services</a></li>
-								<li><a href="#team">Team</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
+						<div class="logo-nav">
+							<div id="logo">
+								<img
+									id="logo-image"
+									src="images/logo.png"
+									alt="three star media logo"
+								/>
+							</div>
+							<!-- Used a nav because it contains navigations links -->
+							<nav>
+								<ul id="links">
+									<li id="home-btn">
+										<a class="site-btn" href="#home">Home</a>
+									</li>
+									<li><a href="#about">About Us</a></li>
+									<li><a href="#services">Services</a></li>
+									<li><a href="#team">Team</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
 						<form id="search">
 							<input type="search" name="search" placeholder="Search" />
 							<button id="search-btn" type="submit">Search</button>
@@ -235,8 +239,8 @@
 					</fieldset>
 				</form>
 			</section>
-            <!-- adding location section for desktop only -->
-            <section class="location desktop">
+			<!-- adding location section for desktop only -->
+			<section class="location desktop">
 				<h2>Location</h2>
 				<p>
 					<iframe
@@ -250,7 +254,7 @@
 					></iframe>
 				</p>
 			</section>
-    
+
 			<!-- A section with an id called hours, in it, contains a table showcasing the available hours of the facility -->
 			<section id="hours">
 				<h2>Hours of Operation</h2>
@@ -269,18 +273,14 @@
 							<td>9 AM - 6 PM</td>
 						</tr>
 						<tr>
-							<td>Saturday</td>
-							<td>Closed</td>
-						</tr>
-						<tr>
-							<td>Sunday</td>
+							<td>Saturday - Sunday</td>
 							<td>Closed</td>
 						</tr>
 					</tbody>
 				</table>
 			</section>
-             
-            <!-- adding location section for mobile only -->
+
+			<!-- adding location section for mobile only -->
 			<!-- A location section with an id by it name, in it contains an embedded google maps link -->
 			<section class="location mobile">
 				<h2>Location</h2>
