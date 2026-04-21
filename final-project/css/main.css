@@ -82,7 +82,7 @@ a {
 	}
 
     #site-header {
-        padding: 10px;
+        padding-top: 10px;
         background-color: #222;
     }
 
@@ -124,7 +124,7 @@ a {
 		background-color: #c78c06;
 		margin: 0;
 		padding: 0;
-		height: 150px;
+		height: 108px;
 	}
      /* Search styling */
      /* Setting form width and flex alignment */
