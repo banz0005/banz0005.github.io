@@ -314,6 +314,11 @@ a {
         text-decoration: underline;
     }
 
+     /* hiding desktop location section on mobile */
+    .location.desktop {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 760px) {
