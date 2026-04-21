@@ -431,5 +431,54 @@ a {
 		height: 100%;
 	}
 
+
+    /* begining of hero section styling */
+
+    /* setting hero section display to flex, padding, height and ensuring background image is set to cover */
+    /* setting background image to the hero section so that the element containing the information can be rendered above the image  */
+
+    #hero-section {
+		display: flex;
+		align-items: center;
+		padding: 0px 36px;
+		background-image: url("/images/main-banner.jpg");
+		background-size: cover;
+		object-fit: cover;
+		background-position: center;
+		height: 495px;
+	}
+
+    /* setting background color to the container and setting the text color to white */
+	#hero-container {
+		display: flex;
+		background-color: #22222298;
+		color: white;
+	}
+
+    /* displaying child elements in a column using flexbox, and separeting the child element using space between and setting default height */
+	#front {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 10px;
+		height: 400px;
+	}
+
+    /* setting default styling for all section buttons */
+	.section-btn {
+		background-color: #222;
+		color: white;
+		margin-top: 10px;
+		padding: 30px 20px;
+	}
+
+	/* Contact button styling */
+    /* overwriting background color and text color styling */
+	.section-btn.connect {
+		background-color: #c78c06;
+		color: #222;
+		padding: 30px 20px;
+		max-width: fit-content;
+	}
 	
 }
