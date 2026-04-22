@@ -31,9 +31,7 @@ a {
 	width: 100%;
 }
 
-iframe {
-	width: 100%;
-}
+
 
 h1 {
 	font-size: 4rem;
@@ -95,6 +93,11 @@ hr {
 /* setting max width media query for the screen size of 760 and below */
 /* mobile styling */
 @media screen and (max-width: 760px) {
+
+    iframe {
+        width: 100%;
+    }
+    
 	section {
 		padding: 15px;
 	}
@@ -639,5 +642,133 @@ hr {
 		background-color: #f4e1a1;
 	}
 
-    
+    /*  */
+   .contact-location-container {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	#contact {
+		width: 100%;
+		height: 100%;
+		padding: 0px 55px;
+	}
+	#contact h2 {
+		text-align: left;
+	}
+
+	#contact-fieldset {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#contact-form {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	#contact-fieldset {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#contact-fieldset label {
+		font-size: 1rem;
+		line-height: 1.3rem;
+		margin: 0 0 6px 0;
+	}
+
+	#contact-fieldset input,
+	#contact-fieldset textarea {
+		width: 100%;
+		box-sizing: border-box;
+		border: 1px solid #999;
+		padding: 8px;
+		font: inherit;
+	}
+
+	#contact-fieldset input {
+		height: 38px;
+		margin-bottom: 12px;
+	}
+
+	#contact-fieldset textarea {
+		height: 160px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+
+	.contact-location-container {
+		display: flex;
+		justify-content: left;
+		width: 100%;
+	}
+	.contact-section-container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.form-container,
+	.location-desktop {
+		width: 100%;
+	}
+
+	.location-desktop iframe {
+		width: 50%;
+	}
+
+	.form-container {
+		width: 50%;
+		padding-right: 10px;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	#form-btn {
+		background-color: #222;
+		color: #c78c06;
+		border: none;
+		margin-top: 20px;
+		font-size: 1.4rem;
+		height: 30px;
+		max-width: fit-content;
+	}
+
+	#hours {
+		width: 92%;
+	}
+	table {
+		width: 100%;
+		padding: 0px 55px;
+	}
+
+	table th {
+		text-align: center;
+		font-size: 1rem;
+		border: 1px solid #222;
+		background-color: rgb(255, 230, 172);
+		line-height: 1.3rem;
+		padding: 10px 0px;
+	}
+
+	table td {
+		font-size: 1rem;
+		border: 1px solid #222;
+		text-align: center;
+		line-height: 1.3rem;
+		padding: 10px 0px;
+	}
+
+    .location.mobile {
+        display: none;
+    }
+
+
 }
