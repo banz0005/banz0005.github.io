@@ -97,7 +97,7 @@ hr {
     iframe {
         width: 100%;
     }
-    
+
 	section {
 		padding: 15px;
 	}
@@ -642,7 +642,7 @@ hr {
 		background-color: #f4e1a1;
 	}
 
-    /*  */
+    /* beginning of contact and location styling */
    .contact-location-container {
 		display: flex;
 		justify-content: center;
@@ -657,6 +657,7 @@ hr {
 		text-align: left;
 	}
 
+    /* beginning of contact styling */
 	#contact-fieldset {
 		display: flex;
 		flex-direction: column;
@@ -713,6 +714,7 @@ hr {
 		justify-content: center;
 	}
 
+    
 	.form-container,
 	.location-desktop {
 		width: 100%;
@@ -741,8 +743,11 @@ hr {
 		max-width: fit-content;
 	}
 
+    /* begignning of styling hours */
 	#hours {
-		width: 92%;
+		width: 100%;
+        margin: 0 auto;
+        max-width: 92%;
 	}
 	table {
 		width: 100%;
@@ -770,5 +775,22 @@ hr {
         display: none;
     }
 
+    /* beginning of footer styling */
+
+footer {
+		background-color: #222;
+		color: #c78c06;
+		height: 90px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		padding-top: 15px;
+		padding-left: 15px;
+	}
+
+	footer a {
+		color: #c78c06;
+		text-decoration: underline;
+	}
 
 }
