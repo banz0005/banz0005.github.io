@@ -7,7 +7,7 @@ html {
 	font-variation-settings: "wdth" 100;
 	line-height: 1.4;
 	width: 100%;
-    font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 /* setting the max width of the container to 1200px */
 /* setting auto margin to center container content */
@@ -17,7 +17,7 @@ html {
 	margin: 0 auto;
 }
 
-/*  */
+/* beginning for all consistent styling between desktop and mobile  */
 a {
 	text-decoration: none;
 	color: #c78c06;
@@ -67,6 +67,30 @@ h3 {
 hr {
 	width: 100%;
 	border: 1px solid #c78c06;
+}
+
+/* setting vision styling that is consistent in both dekstop and mobile */
+/* setting background image and adjusting baavkground size, object fit background position proprties to match the mockup */
+#vision {
+	background-image: url("/images/vision.jpg");
+	background-size: cover;
+	object-fit: contain;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	color: white;
+	padding: 10px 50px;
+	max-height: fit-content;
+}
+
+/* setting border background padding proprety for the vision button */
+/* overwrting section button styling */
+.section-btn.vision {
+	border: 1px solid #c78c06;
+	background-color: #00000046;
+	padding: 30px 20px;
+	max-width: fit-content;
 }
 /* setting max width media query for the screen size of 760 and below */
 /* mobile styling */
@@ -218,28 +242,7 @@ hr {
 	#about {
 		background-color: rgb(255, 230, 172);
 	}
-
-	/* vision section styling */
-
-	#vision {
-		background-image: url("/images/vision.jpg");
-		background-size: cover;
-		object-fit: contain;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-		color: white;
-		padding: 15px;
-		max-height: fit-content;
-	}
-
-	/* Editing default styling for the vision section button */
-
-	.section-btn.vision {
-		border: 1px solid #c78c06;
-		background-color: #00000046;
-	}
-
+	
 	/* styling for our team section */
 
 	#team article {
@@ -481,7 +484,7 @@ hr {
 	}
 
 	/* beginning of section services styling */
-    /* setting default background color and flexbox alignment and distribution */
+	/* setting default background color and flexbox alignment and distribution */
 	#about {
 		background-color: rgb(255, 230, 172);
 		display: flex;
@@ -491,14 +494,14 @@ hr {
 		align-items: center;
 	}
 
-    /* setting max width and image height */
+	/* setting max width and image height */
 	#about img {
 		max-width: 400px;
 		height: 80%;
 	}
 
-    /* setting flex direction to column so that child elements are on top of each other */
-    /* setting default max width and padding */
+	/* setting flex direction to column so that child elements are on top of each other */
+	/* setting default max width and padding */
 
 	.section-info {
 		display: flex;
@@ -507,7 +510,7 @@ hr {
 		max-width: 30%;
 	}
 
-    /* setting services section container to flex to put all child elements in a column */
+	/* setting services section container to flex to put all child elements in a column */
 	.services-section-container {
 		display: flex;
 		flex-direction: column;
@@ -516,7 +519,7 @@ hr {
 		width: 100%;
 	}
 
-    /* setting default background color and flex direction */
+	/* setting default background color and flex direction */
 	#services {
 		background-color: white;
 		display: flex;
@@ -525,20 +528,20 @@ hr {
 		padding: 0px 40px;
 	}
 
-    /* setting services display proprety to grid to align and order the child article element */
-    /* setting six equal columns with ten pixel space between items */
+	/* setting services display proprety to grid to align and order the child article element */
+	/* setting six equal columns with ten pixel space between items */
 	#services {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 		gap: 10px;
 	}
 
-    /* setting h2 to span full row */
+	/* setting h2 to span full row */
 	#services h2 {
 		grid-column: 1 / 7;
 	}
 
-    /* displaying default card proprety to flex and putting child elements to column and centering their alignment */
+	/* displaying default card proprety to flex and putting child elements to column and centering their alignment */
 	.card {
 		display: flex;
 		flex-direction: column;
@@ -548,42 +551,42 @@ hr {
 		padding: 10px;
 	}
 
-    /* setting default card width */
+	/* setting default card width */
 	.card img {
 		width: 100%;
 	}
 
 	/* grid styling for the first two services */
-    /* using nth of type to select first grid item and setting its width to three column wide */
+	/* using nth of type to select first grid item and setting its width to three column wide */
 	.card:nth-of-type(1) {
 		grid-column: span 3;
 	}
 
-     /* using nth of type to select second grid item and setting its width to three column wide */
+	/* using nth of type to select second grid item and setting its width to three column wide */
 
 	.card:nth-of-type(2) {
 		grid-column: span 3;
 	}
 
 	/* grid styling for the last three services */
-        /* using nth of type to select third grid item and setting its width to two column wide so that the three card can fit in 1 row */
+	/* using nth of type to select third grid item and setting its width to two column wide so that the three card can fit in 1 row */
 
 	.card:nth-of-type(3) {
 		grid-column: span 2;
 	}
 
-    /* using nth of type to select fourth grid item and setting its width to two column wide */
+	/* using nth of type to select fourth grid item and setting its width to two column wide */
 	.card:nth-of-type(4) {
 		grid-column: span 2;
 	}
 
-    /* using nth of type to select fifth grid item and setting its width to two column wide */
+	/* using nth of type to select fifth grid item and setting its width to two column wide */
 
 	.card:nth-of-type(5) {
 		grid-column: span 2;
 	}
 
-    /* setting default flex propretiy and background color */
+	/* setting default flex propretiy and background color */
 	.section-description-container {
 		background-color: rgb(255, 230, 172);
 
@@ -592,7 +595,7 @@ hr {
 		padding: 10px;
 	}
 
-    /* aligning all services button text to center */
+	/* aligning all services button text to center */
 	#services .section-btn {
 		text-align: center;
 	}
