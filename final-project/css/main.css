@@ -599,4 +599,45 @@ hr {
 	#services .section-btn {
 		text-align: center;
 	}
+
+    /* setting parent container to flex and aligning child element into a column */
+    #team {
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		padding: 0px 50px;
+	}
+
+    /* setting flex proprety to row */
+    /* setting items to strecth to match the size of the container and image */
+	#team article {
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		justify-content: center;
+		padding: 10px;
+	}
+
+    /* using nth of type to select second article and setting the flex direction to rwo reverse to march the mockup */
+	#team article:nth-of-type(2) {
+		flex-direction: row-reverse;
+	}
+
+    /* setting team image width to 50% to cover half of the element width */
+	#team img {
+		width: 50%;
+		display: block;
+		object-fit: cover;
+	}
+
+    /* setting description width to 50% to cover the other half */
+	#team .section-description-container {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+		background-color: #f4e1a1;
+	}
+
+    
 }
