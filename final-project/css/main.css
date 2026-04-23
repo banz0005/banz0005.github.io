@@ -67,6 +67,25 @@ hr {
 	border: 1px solid #c78c06;
 }
 
+#search-icon {
+    width: 25px;
+    height: 25px;
+    transform: scaleX(-1);
+}
+
+.chevron-icon {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0px;
+}
+
+.section-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+}
+
 /* setting vision styling that is consistent in both dekstop and mobile */
 /* setting background image and adjusting baavkground size, object fit background position proprties to match the mockup */
 #vision {
@@ -87,7 +106,7 @@ hr {
 .section-btn.vision {
 	border: 1px solid #c78c06;
 	background-color: #00000046;
-	padding: 30px 20px;
+	padding: 10px 0px 10px 10px;
 	max-width: fit-content;
 }
 /* setting max width media query for the screen size of 760 and below */
@@ -108,7 +127,7 @@ hr {
 	.section-btn {
 		background-color: #222;
 		color: white;
-		padding: 30px 25px;
+		padding: 10px 0px 10px 10px;
 		margin-top: 10px;
 		max-width: fit-content;
 	}
@@ -474,7 +493,7 @@ hr {
 		background-color: #222;
 		color: white;
 		margin-top: 10px;
-		padding: 30px 20px;
+		padding: 10px 0px 10px 10px;
 	}
 
 	/* Contact button styling */
