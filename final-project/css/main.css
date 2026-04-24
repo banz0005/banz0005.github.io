@@ -31,13 +31,11 @@ a {
 	width: 100%;
 }
 
-
-
 h1 {
 	font-size: 4rem;
 	font-weight: 700;
-	line-height: 4.5rem;
-	max-width: 450px;
+	line-height: 7rem;
+	max-width: 700px;
 }
 
 h2 {
@@ -68,22 +66,23 @@ hr {
 }
 
 #search-icon {
-    width: 25px;
-    height: 25px;
-    transform: scaleX(-1);
+	width: 25px;
+	height: 25px;
+	transform: scaleX(-1);
 }
 
 .chevron-icon {
-    width: 35px;
-    height: 35px;
-    margin: 0;
-    padding: 0px;
+	width: 35px;
+	height: 35px;
+	margin: 0;
+	padding: 0px;
 }
 
 .section-btn {
-    display: flex;
-    align-items: center;
-    padding: 10px 0px 10px 10px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 10px 0px 10px 10px;
 }
 
 /* setting vision styling that is consistent in both dekstop and mobile */
@@ -112,10 +111,9 @@ hr {
 /* setting max width media query for the screen size of 760 and below */
 /* mobile styling */
 @media screen and (max-width: 760px) {
-
-    iframe {
-        width: 100%;
-    }
+	iframe {
+		width: 100%;
+	}
 
 	section {
 		padding: 15px;
@@ -136,6 +134,8 @@ hr {
 	.section-btn.connect {
 		background-color: #c78c06;
 		color: #222;
+        padding: 20px 30px 20px 30px;
+        font-size: 1.5rem;
 	}
 	nav {
 		width: 100%;
@@ -220,8 +220,7 @@ hr {
 
 	/* hero section styling */
 
-	#main-banner-container {
-	}
+	
 
 	#hero-section {
 		background-image: url("/images/main-banner.jpg");
@@ -243,7 +242,7 @@ hr {
 		max-height: fit-content;
 		color: white;
 		padding: 20px;
-		height: 300px;
+		height: 350px;
 		width: fit-content;
 		padding: 15px;
 	}
@@ -255,8 +254,9 @@ hr {
 	}
 
 	#front p {
-		font-size: 1rem;
-		line-height: 1.2rem;
+		font-size: 1.35rem;
+		line-height: 1.7rem;
+        /* font-weight: 300; */
 	}
 
 	/* about styling section */
@@ -264,7 +264,7 @@ hr {
 	#about {
 		background-color: rgb(255, 230, 172);
 	}
-	
+
 	/* styling for our team section */
 
 	#team article {
@@ -477,7 +477,13 @@ hr {
 		display: flex;
 		background-color: #22222298;
 		color: white;
+		margin-right: 65px;
+		margin-left: 65px;
 	}
+
+    .section-p {
+        font-size: 120%;
+    }
 
 	/* displaying child elements in a column using flexbox, and separeting the child element using space between and setting default height */
 	#front {
@@ -494,6 +500,10 @@ hr {
 		color: white;
 		margin-top: 10px;
 		padding: 10px 0px 10px 10px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
 	}
 
 	/* Contact button styling */
@@ -501,8 +511,9 @@ hr {
 	.section-btn.connect {
 		background-color: #c78c06;
 		color: #222;
-		padding: 30px 20px;
+		padding: 20px 30px 20px 30px;
 		max-width: fit-content;
+        font-size: 1.3rem;
 	}
 
 	/* beginning of section services styling */
@@ -518,7 +529,7 @@ hr {
 
 	/* setting max width and image height */
 	#about img {
-		max-width: 400px;
+		max-width: 500px;
 		height: 80%;
 	}
 
@@ -620,18 +631,24 @@ hr {
 	/* aligning all services button text to center */
 	#services .section-btn {
 		text-align: center;
+		margin-right: 5px;
+		margin-left: 5px;
 	}
 
-    /* setting parent container to flex and aligning child element into a column */
-    #team {
+	.chevron-icon.white {
+		width: 50px;
+	}
+
+	/* setting parent container to flex and aligning child element into a column */
+	#team {
 		display: flex;
 		flex-direction: column;
 		background-color: white;
 		padding: 0px 50px;
 	}
 
-    /* setting flex proprety to row */
-    /* setting items to strecth to match the size of the container and image */
+	/* setting flex proprety to row */
+	/* setting items to strecth to match the size of the container and image */
 	#team article {
 		display: flex;
 		flex-direction: row;
@@ -640,19 +657,19 @@ hr {
 		padding: 10px;
 	}
 
-    /* using nth of type to select second article and setting the flex direction to rwo reverse to march the mockup */
+	/* using nth of type to select second article and setting the flex direction to rwo reverse to march the mockup */
 	#team article:nth-of-type(2) {
 		flex-direction: row-reverse;
 	}
 
-    /* setting team image width to 50% to cover half of the element width */
+	/* setting team image width to 50% to cover half of the element width */
 	#team img {
 		width: 50%;
 		display: block;
 		object-fit: cover;
 	}
 
-    /* setting description width to 50% to cover the other half */
+	/* setting description width to 50% to cover the other half */
 	#team .section-description-container {
 		width: 50%;
 		display: flex;
@@ -661,8 +678,8 @@ hr {
 		background-color: #f4e1a1;
 	}
 
-    /* beginning of contact and location styling */
-   .contact-location-container {
+	/* beginning of contact and location styling */
+	.contact-location-container {
 		display: flex;
 		justify-content: center;
 		width: 100%;
@@ -676,7 +693,7 @@ hr {
 		text-align: left;
 	}
 
-    /* beginning of contact styling */
+	/* beginning of contact styling */
 	#contact-fieldset {
 		display: flex;
 		flex-direction: column;
@@ -733,7 +750,6 @@ hr {
 		justify-content: center;
 	}
 
-    
 	.form-container,
 	.location-desktop {
 		width: 100%;
@@ -762,11 +778,11 @@ hr {
 		max-width: fit-content;
 	}
 
-    /* begignning of styling hours */
+	/* begignning of styling hours */
 	#hours {
 		width: 100%;
-        margin: 0 auto;
-        max-width: 92%;
+		margin: 0 auto;
+		max-width: 92%;
 	}
 	table {
 		width: 100%;
@@ -790,13 +806,13 @@ hr {
 		padding: 10px 0px;
 	}
 
-    .location.mobile {
-        display: none;
-    }
+	.location.mobile {
+		display: none;
+	}
 
-    /* beginning of footer styling */
+	/* beginning of footer styling */
 
-footer {
+	footer {
 		background-color: #222;
 		color: #c78c06;
 		height: 90px;
@@ -811,5 +827,4 @@ footer {
 		color: #c78c06;
 		text-decoration: underline;
 	}
-
 }
