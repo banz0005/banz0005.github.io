@@ -233,6 +233,13 @@ hr {
 		height: 450px;
 	}
 
+    .hero-section {
+        background-image: url("../images/main-banner.jpg");
+        background-size: cover;
+		background-position: bottom;
+		object-fit: contain;
+    }
+
 	#hero-container {
 		display: flex;
 		justify-content: space-between;
