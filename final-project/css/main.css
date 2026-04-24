@@ -88,7 +88,7 @@ hr {
 /* setting vision styling that is consistent in both dekstop and mobile */
 /* setting background image and adjusting baavkground size, object fit background position proprties to match the mockup */
 #vision {
-	background-image: url("./images/vision.jpg");
+	background-image: url("../images/vision.jpg");
 	background-size: cover;
 	object-fit: contain;
 	background-position: center;
@@ -221,7 +221,7 @@ hr {
 	/* hero section styling */
 
 	#hero-section {
-		background-image: url("./images/main-banner.jpg");
+		background-image: url("../images/main-banner.jpg");
 		background-size: cover;
 		background-position: bottom;
 		object-fit: contain;
@@ -463,7 +463,7 @@ hr {
 		display: flex;
 		align-items: center;
 		padding: 0px 36px;
-		background-image: url("./images/main-banner.jpg");
+		background-image: url("../images/main-banner.jpg");
 		background-size: cover;
 		object-fit: cover;
 		background-position: center;
