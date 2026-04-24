@@ -134,8 +134,8 @@ hr {
 	.section-btn.connect {
 		background-color: #c78c06;
 		color: #222;
-        padding: 20px 30px 20px 30px;
-        font-size: 1.5rem;
+		padding: 20px 30px 20px 30px;
+		font-size: 1.5rem;
 	}
 	nav {
 		width: 100%;
@@ -220,8 +220,6 @@ hr {
 
 	/* hero section styling */
 
-	
-
 	#hero-section {
 		background-image: url("/images/main-banner.jpg");
 		background-size: cover;
@@ -256,7 +254,7 @@ hr {
 	#front p {
 		font-size: 1.35rem;
 		line-height: 1.7rem;
-        /* font-weight: 300; */
+		/* font-weight: 300; */
 	}
 
 	/* about styling section */
@@ -350,7 +348,7 @@ hr {
 	}
 
 	/* hiding desktop location section on mobile */
-	.location.desktop {
+	#location-desktop {
 		display: none;
 	}
 }
@@ -481,9 +479,9 @@ hr {
 		margin-left: 65px;
 	}
 
-    .section-p {
-        font-size: 120%;
-    }
+	.section-p {
+		font-size: 120%;
+	}
 
 	/* displaying child elements in a column using flexbox, and separeting the child element using space between and setting default height */
 	#front {
@@ -513,7 +511,7 @@ hr {
 		color: #222;
 		padding: 20px 30px 20px 30px;
 		max-width: fit-content;
-        font-size: 1.3rem;
+		font-size: 1.3rem;
 	}
 
 	/* beginning of section services styling */
